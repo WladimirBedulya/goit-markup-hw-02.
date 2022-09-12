@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Thin.woff2") format("woff2"),
+        url("/fonts/Roboto-Thin.woff") format("woff");
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1,8;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.button {
+    cursor: pointer;
+}
+.button:hover{
+    color: green;
+    background-color:yellow;
+    font-family: 'Roboto';
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,6;
+}
+
+.linkmail:hover
+.linkmaii:focus{
+    color:red;
+}
+.linktel:hover 
+.linktel:focus{
+    color: red;
+}
+.logo {
+    color: blue;
+}
+.logo2{
+    color: black;
+}
+.link-header{
+    text-decoration: none;
+}
+.item{
+    list-style-type: none;
+    display: inline;
+}
+.boxcolor {
+    list-style-type: none;
+}
